@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 1.2em;
+    color: navy;
+    text-align: center;
+}
+
+form {
+    width: 500px;
+    margin: 0 auto;
+    padding: .6rem;
+    border: 1px solid black;
+    border-radius: 0.9rem;
+    background-color: #f0ecec;
+    display: grid;
+}
+
+label {
+    font-size: .9rem;
+    margin: .6rem;
+}
+
+#q4-box {
+    margin: 1rem;
+    font-size: 1em;
+    font-style: italic;
+    color: white;
+    text-align: center;
+    background-color: rgb(57, 55, 55);
+    width: 200px;
+    justify-self: center;
+    border-radius: .2rem;
+    height: 40px;
+    align-content: center;
+}
+
+button {
+    margin: 1rem;
+    width: 150px;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: 2rem;
+    padding: .75rem;
+    font-size: .9rem;
+    justify-self: center;
+}
+
+input[type="number"] {
+    width: 150px;
+    height: 30px;
+    justify-self: center;
+}
