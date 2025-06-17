@@ -95,6 +95,9 @@ p, article {
   padding: 8px;
 }
 
+p {
+  text-align: center;
+}
 
 .hero {
   position: relative;
@@ -242,4 +245,35 @@ button:hover {
 #company-information h2 {
   grid-column: 1;
   justify-self: center;
+}
+
+#trip-heading {
+  text-align: center;
+  font-size: 50px;
+}
+
+#trips {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-evenly;
+  justify-items: center;
+}
+
+#trips img {
+  width: 250px;
+}
+
+#trips figcaption {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 1000;
+}
+
+table, tr, td, th{
+  margin: auto;
+  margin-top: 50px;
+  border: 1px solid var(--accent2-color);
+  border-collapse: collapse;
+  padding: 6px 18px;
+  text-align: center;
 }
