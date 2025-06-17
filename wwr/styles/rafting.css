@@ -127,6 +127,20 @@ p {
   border-radius: 1rem;
 }
 
+.hero a {
+  color: var(--primary-color);
+  font-size: 27px;
+}
+
+.hero nav {
+  position: absolute;
+  top: 200px;
+  left: 279px;
+  opacity: 7;
+  background-color: var(--accent2-color);
+  border-radius: 1rem;
+}
+
 footer{
   display: grid;
   grid-template-columns: 4fr 2fr 1fr;
@@ -176,6 +190,37 @@ iframe {
 
 #form h2 {
   grid-column: 2/5;
+}
+
+#newsletter1 {
+  /* margin: auto; */
+  margin-left: 350px;
+  margin-top: 30px;
+  width: 450px;
+  border-color: var(--accent2-color);
+}
+
+#newsletter1 legend {
+  font-size: 20px;
+  color: var(--accent2-color);
+}
+
+#form2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 400px;
+  border: var(--primary-color);
+  grid-gap: .3rem;
+}
+
+#form2 h2, #form2 p {
+  grid-column: 1/5;
+  text-align: center;
+}
+
+#form2 label[for=name], #form2 label[for=email] {
+  grid-column: 1;
+  text-align: right;
 }
 
 #purpose {
@@ -276,4 +321,31 @@ table, tr, td, th{
   border-collapse: collapse;
   padding: 6px 18px;
   text-align: center;
+}
+
+#offerings {
+  margin: 0 auto;
+  margin-left: 20px;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-around;
+}
+
+#offerings img {
+  width: 250px;
+}
+
+#offerings figcaption {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--accent2-color);
+}
+
+.figcaption-desc {
+  
+  font-size: 15px;
+  color: var(--accent1-color);
+  font-weight: 350;
 }
